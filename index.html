@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>//gabz</title>
+  <link href="https://fonts.googleapis.com/css?family=Trocchi|Anton" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app">
+  <div :class="['bg', bg]">
+    <header>
+      <nav>
+        <ul>
+          <li><a class="link-bio" href="#bio" @click="bg = 'bio'">About Me</a></li>
+          <li><a class="link-projects" href="#projects" @click="bg = 'projects'">Projects</a></li>
+          <li><a class="link-find-me" href="#findme" @click="bg = 'find-me'">Contact me</a></li>
+        </ul>
+      </nav>
+      <div class="transition transition-bio"></div>
+      <div class="transition transition-projects"></div>
+      <div class="transition transition-find-me"></div>
+      <h1>gabz</h1>
+    </header>
+    <div class="dots dots1"></div>
+    <div class="dots dots2"></div>
+    <main>
+      <transition name="slide-fade" mode="out-in">
+        <p key="bio" v-if="bg==='bio'">I’m a human person. Also a student, designer and developer. I have some projects that you can check out :D</p>
+        <p key="projects" v-if="bg==='projects'">Here are ALL of my projects:ㅤㅤ
+          The Open Project 2022-N/Aㅤㅤㅤ
+            gabot 2022-N/A ㅤㅤㅤ ㅤㅤ ㅤ ㅤ
+          gabOS 2022-N/Aㅤㅤㅤ ㅤㅤ ㅤㅤㅤ
+          OurCommunity 2022-2022 rip
+          Gaba's Tools 2020-2022ㅤㅤㅤ ㅤㅤ
+          gabgame 2019-N/A
+        </p>
+        <p key="find-me" v-if="bg==='find-me'"> My time zone is EET so check the timezone before you contact me,and now just add me on Discord (Gaba#6066) or on <a href="https://twitter.com/GabsSimply" target="_blank" rel="noopener">Twitter</a> and that's kinda it. </p>
+      </transition>
+    </main>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
