@@ -8,4 +8,3 @@ Right now the project is a fork of https://pehaa.com/
 
 ## Change log (dd/mm/yyyy)
 11/12/2022 Updated my Discord & Added my GitHub in the about me page
-09/12/2022 Added a custom cursor
