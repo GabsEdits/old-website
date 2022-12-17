@@ -1,9 +1,18 @@
 :root {
-    --purple-brown: #231f20;
-    --egg-shell: #e8e4d2;
-    --dark-peach: #EE6C4D;
-    --border-width: .75rem;
-    --dots-gap: 10px;
+  --purple-brown: #220f0f;
+  --egg-shell: #F9E8E7;
+  --dark-peach: #bb2528;
+  --border-width: .75rem;
+  --dots-gap: 10px;
+    
+    /* Old Colors: */
+    /* --purple-brown: #231f20; */
+    /* --egg-shell: #e8e4d2; */
+    /* --dark-peach: #EE6C4D; */
+    /* --border-width: .75rem; */
+    /* --dots-gap: 10px; */
+    
+    
   }
   
   *, *:before, *:after {
