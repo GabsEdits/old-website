@@ -7,4 +7,4 @@ Right now the project is a fork of https://pehaa.com/
 
 
 ## Change log (dd/mm/yyyy)
-11/12/2022 Updated my Discord & Added my GitHub in the about me page
+17/12/2022 Fixed the mobile <a href="https://github.com/GabsEdits/website/issues/1" target="_blank" rel="noopener">issue</a> **&** updated a new cursor
