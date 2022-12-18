@@ -1,5 +1,5 @@
 # Main Website
-the website were you can find me. Still in process of being it's own project.
+the website were you can find me. Still in process of leaving beta.
 
 ### Credits
 Right now the project is a fork of https://pehaa.com/
