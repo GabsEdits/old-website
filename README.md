@@ -5,7 +5,7 @@ None
 
 
 ## Change log (dd/mm/yyyy)
-#### Version 1.0: Relese notes
+#### Version 1.0: Release Notes
   <li>Unforked the PaHaa project</li>
   <li>New UI lang</li>
   <li>New Projects Tab</li>
@@ -17,7 +17,7 @@ None
   <li> New <b>Find Me</b> tab </li>
   <li><b>And a lot more backend changes!</b></li>
 
-### Changes before the 1.0 realese
+### Changes before the 1.0 release
 <br>18/12/2022 Added a icon
 <br> 18/12/2022 Changed the h1 tag from `gabz` to `gabs`
 <br>18/12/2022 Made my discord in to a <a href="https://discordapp.com/users/841649648606249021" target="_blank" rel="noopener">link</a>
