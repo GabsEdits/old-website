@@ -1,23 +1,21 @@
 # Main Website
-This is the main website were you are going to find my projects and my about me. The website still needs a few tweaks in the contact me & projects tab
+This is the main website were you are going to find my projects and my about me.
 ### Sponsors
-None
+*none*
 
 
 ## Change log (dd/mm/yyyy)
-#### Version 1.0: Release Notes
-  <li>Unforked the PaHaa project</li>
-  <li>New UI lang</li>
-  <li>New Projects Tab</li>
-  <li>Fixed all the bugs</li>
-  <li>New Cursor</li>
-  <li>New icons</li>
-  <li>Mobile website</li>
-  <li> Added links </li>
-  <li> New <b>Find Me</b> tab </li>
-  <li><b>And a lot more backend changes!</b></li>
+<br> 22/12/2022 Merged the Arhive website with this one, that means now the projects from the gabas.w3spaces.com are now here for example: the `gabas.w3spaces.com/password/index.html` is now in `gabsedits.github.io/password`
 
-### Changes before the 1.0 release
+<br>*1.0* New UI lang</li>
+<br>*1.0* New Projects Tab</li>
+<br>*1.0* Fixed all the bugs</li>
+<br1>*1.0* New Cursor</li>
+<br>*1.0* New icons</li>
+<br1>*1.0* Mobile website</li>
+<br>*1.0* Added links </li>
+<br>*1.0* New <b>Find Me</b> tab </li>
+
 <br>18/12/2022 Added a icon
 <br> 18/12/2022 Changed the h1 tag from `gabz` to `gabs`
 <br>18/12/2022 Made my discord in to a <a href="https://discordapp.com/users/841649648606249021" target="_blank" rel="noopener">link</a>
