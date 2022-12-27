@@ -5,7 +5,8 @@ This is the main website were you are going to find my projects and my about me.
 
 
 ## Change log (dd/mm/yyyy)
-26/12/2022 Added my telegram, changed the about me tab to bio and updated the projects list
+27/12/2022 Fixed `Find Me` tab
+<br>26/12/2022 Added my telegram, changed the about me tab to bio and updated the projects list
 <br>25/12/2022  Added a Christmas Icon
 <br>23/12/2022 Update list
 <br>22/12/2022 Merged the Arhive website with this one, that means now the projects from the gabas.w3spaces.com are now here for example: the `gabas.w3spaces.com/password/index.html` is now in `gabsedits.github.io/password`
