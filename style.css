@@ -1,11 +1,18 @@
 :root {
+  --purple-brown: #3C6255;
+  --egg-shell: #EAE7B1;
+  --dark-peach: #61876E;
+  --border-width: .75rem;
+  --dots-gap: 10px;
+  
+  /* Old Colors
   --purple-brown: #220f0f;
   --egg-shell: #F9E8E7;
   --dark-peach: #bb2528;
   --border-width: .75rem;
-  --dots-gap: 10px;
+  --dots-gap: 10px; */
     
-    /* Old Colors: */
+    /* Older Colors: */
     /* --purple-brown: #231f20; */
     /* --egg-shell: #e8e4d2; */
     /* --dark-peach: #EE6C4D; */
