@@ -1,14 +1,14 @@
 :root {
   --fledgrau: #3C6255;
   --pale-spring-bud: #eae7b1;
-  --burnt-sienna: #DC7756;
+  --middle-red: #DC7756;
   --border-width: .75rem;
   --dots-gap: 10px;
   
   /* Old Colors
   --fledgrau: #220f0f;
   --pale-spring-bud: #F9E8E7;
-  --burnt-sienna: #bb2528;
+  --middle-red: #bb2528;
   --border-width: .75rem;
   --dots-gap: 10px; */
     
@@ -66,7 +66,7 @@
   }
   
   .bio h1 {
-    background-color: var(--burnt-sienna);
+    background-color: var(--middle-red);
   }
   
   .projects,
@@ -76,7 +76,7 @@
   
   .find-me,
   .link-find-me {
-    background: var(--burnt-sienna);
+    background: var(--middle-red);
   }
   
   .transition {
@@ -105,7 +105,7 @@
   
   .transition-find-me {
     left: 15rem;
-    background: var(--burnt-sienna);
+    background: var(--middle-red);
   }
   
   .bio .transition-bio,
@@ -134,7 +134,7 @@
     bottom: 0;
     opacity: 0.5;
     z-index: 11;
-    background-image: linear-gradient(var(--burnt-sienna) 20%, transparent 0);
+    background-image: linear-gradient(var(--middle-red) 20%, transparent 0);
     background-size: 100% var(--dots-gap);
     background-position: 0 0;
     -webkit-animation: movebg 0.2s linear infinite;
@@ -209,7 +209,7 @@
   }
   
   .projects h1 {
-    background-color: var(--burnt-sienna);
+    background-color: var(--middle-red);
     background-position: -120px 15%, 230px 20%, -100px 3vw;
   }
   
