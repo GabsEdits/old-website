@@ -5,7 +5,7 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
-* *09/01/2023* Fixed all the Grammer Issues and changed the README.md design
+* *09/01/2023* Fixed all the Grammer Issues, changed the README.md design made a new color palette and new cursor
 * *27/12/2022* Fixed `Find Me` tab
 * *26/12/2022* Added my telegram, changed the about me tab to bio and updated the projects list
 * *25/12/2022*  Added a Christmas Icon
