@@ -1,20 +1,20 @@
 :root {
-  --purple-brown: #3C6255;
-  --egg-shell: #EAE7B1;
-  --dark-peach: #61876E;
+  --fledgrau: #3C6255;
+  --pale-spring-bud: #eae7b1;
+  --light-peach: #E18A6D;
   --border-width: .75rem;
   --dots-gap: 10px;
   
   /* Old Colors
-  --purple-brown: #220f0f;
-  --egg-shell: #F9E8E7;
-  --dark-peach: #bb2528;
+  --fledgrau: #220f0f;
+  --pale-spring-bud: #F9E8E7;
+  --light-peach: #bb2528;
   --border-width: .75rem;
   --dots-gap: 10px; */
     
     /* Older Colors: */
-    /* --purple-brown: #231f20; */
-    /* --egg-shell: #e8e4d2; */
+    /* --fledgrau: #231f20; */
+    /* --pale-spring-bud: #e8e4d2; */
     /* --dark-peach: #EE6C4D; */
     /* --border-width: .75rem; */
     /* --dots-gap: 10px; */
@@ -29,7 +29,7 @@
   body {
     font-family: Trocchi, Georgia, serif;
     line-height: 1.5;
-    color: var(--egg-shell);
+    color: var(--pale-spring-bud);
   }
   
   a {
@@ -44,7 +44,7 @@
   }
   
   .projects {
-    color: var(--purple-brown);
+    color: var(--fledgrau);
   }
   
   .bg:after {
@@ -62,21 +62,21 @@
   
   .bio,
   .link-bio {
-    background: var(--purple-brown);
+    background: var(--fledgrau);
   }
   
   .bio h1 {
-    background-color: var(--dark-peach);
+    background-color: var(--light-peach);
   }
   
   .projects,
   .link-projects {
-    background: var(--egg-shell);
+    background: var(--pale-spring-bud);
   }
   
   .find-me,
   .link-find-me {
-    background: var(--dark-peach);
+    background: var(--light-peach);
   }
   
   .transition {
@@ -95,17 +95,17 @@
   
   .transition-bio {
     left: 0;
-    background: var(--purple-brown);
+    background: var(--fledgrau);
   }
   
   .transition-projects {
     left: 7.5rem;
-    background: var(--egg-shell);
+    background: var(--pale-spring-bud);
   }
   
   .transition-find-me {
     left: 15rem;
-    background: var(--dark-peach);
+    background: var(--light-peach);
   }
   
   .bio .transition-bio,
@@ -134,7 +134,7 @@
     bottom: 0;
     opacity: 0.5;
     z-index: 11;
-    background-image: linear-gradient(var(--dark-peach) 20%, transparent 0);
+    background-image: linear-gradient(var(--light-peach) 20%, transparent 0);
     background-size: 100% var(--dots-gap);
     background-position: 0 0;
     -webkit-animation: movebg 0.2s linear infinite;
@@ -165,12 +165,12 @@
   
   .projects .dots:before,
   .projects .dots:after {
-    background-image: linear-gradient(var(--purple-brown) 20%, transparent 0);
+    background-image: linear-gradient(var(--fledgrau) 20%, transparent 0);
   }
   
   .find-me .dots:before,
   .find-me .dots:after {
-    background-image: linear-gradient(var(--egg-shell) 20%, transparent 0);
+    background-image: linear-gradient(var(--pale-spring-bud) 20%, transparent 0);
   }
   
   @-webkit-keyframes movebg {
@@ -209,12 +209,12 @@
   }
   
   .projects h1 {
-    background-color: var(--dark-peach);
+    background-color: var(--light-peach);
     background-position: -120px 15%, 230px 20%, -100px 3vw;
   }
   
   .find-me h1 {
-    background-color: var(--egg-shell);
+    background-color: var(--pale-spring-bud);
     background-position: -240px 15%, 260px 25%, -150px 1vw;
   }
   
@@ -237,14 +237,14 @@
   nav a {
     display: block;
     padding: 0.75rem 0 0.5rem;
-    color: var(--egg-shell);
+    color: var(--pale-spring-bud);
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 0.875rem;
   }
   nav .link-projects {
-    color: var(--purple-brown);
+    color: var(--fledgrau);
   }
   
   main {
