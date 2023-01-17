@@ -5,6 +5,7 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
+* *17/01/2023 - ??/??/2023* Started working for every project I have to have it's homepage
 * *09/01/2023* Fixed all the Grammer Issues, changed the README.md design made a new color palette and new cursor
 * *27/12/2022* Fixed `Find Me` tab
 * *26/12/2022* Added my telegram, changed the about me tab to bio and updated the projects list
