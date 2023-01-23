@@ -60,12 +60,12 @@
     transition: 1s;
   }
   
-  .find-me,
-  .link-find-me {
+  .about-me,
+  .link-about-me {
     background: var(--fledgrau);
   }
   
-  .find-me h1 {
+  .about-me h1 {
     background-color: var(--middle-red);
   }
   
@@ -93,7 +93,7 @@
     transform-origin: 0 0;
   }
   
-  .transition-find-me {
+  .transition-about-me {
     left: 0;
     background: var(--fledgrau);
   }
@@ -108,13 +108,13 @@
     background: var(--middle-red);
   }
   
-  .find-me .transition-find-me,
+  .about-me .transition-about-me,
   .projects .transition-projects,
   .find-me .transition-find-me {
     opacity: 1;
   }
   
-  .find-me .transition-find-me {
+  .about-me .transition-about-me {
     transform: scale(1);
   }
   
