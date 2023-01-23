@@ -60,12 +60,12 @@
     transition: 1s;
   }
   
-  .about-me,
-  .link-about-me {
+  .bio,
+  .link-bio {
     background: var(--fledgrau);
   }
   
-  .about-me h1 {
+  .bio h1 {
     background-color: var(--middle-red);
   }
   
@@ -93,7 +93,7 @@
     transform-origin: 0 0;
   }
   
-  .transition-about-me {
+  .transition-bio {
     left: 0;
     background: var(--fledgrau);
   }
@@ -108,13 +108,13 @@
     background: var(--middle-red);
   }
   
-  .about-me .transition-about-me,
+  .bio .transition-bio,
   .projects .transition-projects,
   .find-me .transition-find-me {
     opacity: 1;
   }
   
-  .about-me .transition-about-me {
+  .bio .transition-bio {
     transform: scale(1);
   }
   
