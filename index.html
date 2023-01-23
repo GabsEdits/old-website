@@ -28,12 +28,12 @@
     <header>
       <nav>
         <ul>
-          <li><a class="link-bio" href="#bio" @click="bg = 'bio'">Bio</a></li>
+          <li><a class="link-find-me" href="#find-me" @click="bg = 'find-me'">find-me</a></li>
           <li><a class="link-projects" href="#projects" @click="bg = 'projects'">Projects</a></li>
           <li><a class="link-find-me" href="#findme" @click="bg = 'find-me'">Find me</a></li>
         </ul>
       </nav>
-      <div class="transition transition-bio"></div>
+      <div class="transition transition-find-me"></div>
       <div class="transition transition-projects"></div>
       <div class="transition transition-find-me"></div>
       <h1>gabs</h1>
@@ -42,7 +42,7 @@
     <div class="dots dots2"></div>
     <main>
       <transition name="slide-fade" mode="out-in">
-        <p key="bio" v-if="bg==='bio'">I’m a human person. Also a designer and developer. I have some open source projects that you can check out on my <a href="https://github.com/GabsEdits" target="_blank" rel="noopener">Github</a> :D</p>
+        <p key="find-me" v-if="bg==='find-me'">I’m a human person. Also a designer and developer. I have some open source projects that you can check out on my <a href="https://github.com/GabsEdits" target="_blank" rel="noopener">Github</a> :D</p>
         <p key="projects" v-if="bg==='projects'">Here are ALL of my projects:
         
          <br1><a href="https://github.com/GabsEdits/password"target="_blank" rel="noopener">Password Generator</a></br1>

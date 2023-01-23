@@ -2,7 +2,7 @@ new Vue({
     el: '#app',
     data() {
       return {
-        bg: 'bio' };
+        bg: 'find-me' };
   
     } });
 
