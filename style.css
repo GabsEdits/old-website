@@ -1,9 +1,9 @@
 :root {
-  --fledgrau: #3C6255;
-  --pale-spring-bud: #eae7b1;
-  --middle-red: #DC7756;
-  --border-width: .75rem;
-  --dots-gap: 10px;
+  --fledgrau: #687864;
+  --pale-spring-bud: #f7f9fb;
+  --middle-red: #f4976c;
+  --border-width: 1rem;
+  --dots-gap: 40px;
   
   /* Old Colors
   --fledgrau: #220f0f;
@@ -191,7 +191,7 @@
     }
   }
   h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Abril Fatface', cursive;
     text-align: center;
     margin: 0;
     -webkit-background-clip: text;
