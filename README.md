@@ -5,7 +5,7 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
-* *24/01/2023* Website Revamp
+* *24/01/2023* Website Revamp + fixed all the existing bugs
 * *23/01/2023* Changed the Header font to Pacifico and changed "bio" tab to "Find Me" or `find-me`
 * *17/01/2023 - ??/??/2023* Started working for every project I have to have it's homepage
 * *09/01/2023* Fixed all the Grammer Issues, changed the README.md design made a new color palette and new cursor
