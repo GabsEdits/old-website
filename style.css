@@ -27,8 +27,8 @@
   }
   
   body {
-    font-family: Trocchi, Georgia, serif;
-    line-height: 1.5;
+    font-family: 'Zilla Slab', serif;
+    line-height: 1.25;
     color: var(--pale-spring-bud);
   }
   
@@ -63,6 +63,7 @@
   .bio,
   .link-bio {
     background: var(--fledgrau);
+    border-radius: 0 0 0 10px;
   }
   
   .bio h1 {
@@ -77,6 +78,7 @@
   .find-me,
   .link-find-me {
     background: var(--middle-red);
+    border-radius: 0 0 10px 0;
   }
   
   .transition {
@@ -140,7 +142,7 @@
     -webkit-animation: movebg 0.2s linear infinite;
             animation: movebg 0.2s linear infinite;
     will-change: transform;
-    width: 2px;
+    width: 2.5px;
   }
   
   .dots1:before {
@@ -200,7 +202,7 @@
     transition: background-position 1s, background-color 1s;
     text-align: center;
     font-size: calc(28vw + 1rem);
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1;
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/tw-o.png"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/tw6-o.png"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/tw5-o.png");
     background-size: 45vw auto, 45vw auto, 30vw auto;
