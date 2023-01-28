@@ -1,9 +1,9 @@
 :root {
   --fledgrau: #687864;
   --pale-spring-bud: #f7f9fb;
-  --middle-red: #f4976c;
-  --border-width: 1rem;
-  --dots-gap: 40px;
+  --middle-red: #ff8c69;
+  --border-width: .8rem;
+  --dots-gap: 20px;
   
   /* Old Colors
   --fledgrau: #220f0f;
