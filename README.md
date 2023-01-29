@@ -5,6 +5,8 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
+* *29/01/2023* Update `README.md`
+* *28/01/2023* Update Colors
 * *27/01/2023* Started the Website's CSS Revamp & made the website **10x** faster
 * *24/01/2023* Website Revamp + fixed all the existing bugs
 * *23/01/2023* Changed the Header font to Pacifico and changed "bio" tab to "Find Me" or `find-me`
