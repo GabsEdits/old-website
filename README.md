@@ -5,6 +5,7 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
+* **Less update now cuz everything is perfect**
 * *29/01/2023* Update `README.md`
 * *28/01/2023* Update Colors
 * *27/01/2023* Started the Website's CSS Revamp & made the website **10x** faster
