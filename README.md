@@ -5,6 +5,7 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
+* *06/01/2023* Made the website look better on mobile
 * *05/01/2023* Add Mastodon Verification
 * *29/01/2023* Update `README.md`
 * *28/01/2023* Update Colors
