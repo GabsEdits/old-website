@@ -6,8 +6,9 @@
   
   </div>
 
-* *06/01/2023* Made the website look better on mobile
-* *05/01/2023* Add Mastodon Verification
+* *07/02/2023* Working on the projects tab & fix the change log
+* *06/02/2023* Made the website look better on mobile
+* *05/02/2023* Add Mastodon Verification
 * *29/01/2023* Update `README.md`
 * *28/01/2023* Update Colors
 * *27/01/2023* Started the Website's CSS Revamp & made the website **10x** faster
