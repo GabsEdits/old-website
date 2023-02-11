@@ -6,6 +6,7 @@
   
   </div>
 
+* *11/02/2023* New theme, icon & integration with IntelliJ Idea
 * *07/02/2023* Working on the projects tab & fix the change log
 * *06/02/2023* Made the website look better on mobile
 * *05/02/2023* Add Mastodon Verification

@@ -1,20 +1,20 @@
 :root {
-  --fledgrau: #687864;
-  --pale-spring-bud: #f7f9fb;
-  --middle-red: #ff8c69;
+  --licorice: #191515;
+  --lavender-blush: #FFF1F3;
+  --burnt-sienna: #F06842;
   --border-width: .8rem;
   --dots-gap: 20px;
-  
+
   /* Old Colors
-  --fledgrau: #220f0f;
-  --pale-spring-bud: #F9E8E7;
-  --middle-red: #bb2528;
+  --licorice: #220f0f;
+  --lavender-blush: #F9E8E7;
+  --burnt-sienna: #bb2528;
   --border-width: .75rem;
   --dots-gap: 10px; */
     
     /* Older Colors: */
-    /* --fledgrau: #231f20; */
-    /* --pale-spring-bud: #e8e4d2; */
+    /* --licorice: #231f20; */
+    /* --lavender-blush: #e8e4d2; */
     /* --dark-peach: #EE6C4D; */
     /* --border-width: .75rem; */
     /* --dots-gap: 10px; */
@@ -29,7 +29,7 @@
   body {
     font-family: 'Zilla Slab', serif;
     line-height: 1.25;
-    color: var(--pale-spring-bud);
+    color: var(--lavender-blush);
   }
   
   a {
@@ -44,7 +44,7 @@
   }
   
   .projects {
-    color: var(--fledgrau);
+    color: var(--licorice);
   }
   
   .bg:after {
@@ -62,22 +62,22 @@
   
   .bio,
   .link-bio {
-    background: var(--fledgrau);
+    background: var(--licorice);
     border-radius: 0 0 0 10px;
   }
   
   .bio h1 {
-    background-color: var(--middle-red);
+    background-color: var(--burnt-sienna);
   }
   
   .projects,
   .link-projects {
-    background: var(--pale-spring-bud);
+    background: var(--lavender-blush);
   }
   
   .find-me,
   .link-find-me {
-    background: var(--middle-red);
+    background: var(--burnt-sienna);
     border-radius: 0 0 10px 0;
   }
   
@@ -97,17 +97,17 @@
   
   .transition-bio {
     left: 0;
-    background: var(--fledgrau);
+    background: var(--licorice);
   }
   
   .transition-projects {
     left: 7.5rem;
-    background: var(--pale-spring-bud);
+    background: var(--lavender-blush);
   }
   
   .transition-find-me {
     left: 15rem;
-    background: var(--middle-red);
+    background: var(--burnt-sienna);
   }
   
   .bio .transition-bio,
@@ -136,7 +136,7 @@
     bottom: 0;
     opacity: 0.5;
     z-index: 11;
-    background-image: linear-gradient(var(--middle-red) 20%, transparent 0);
+    background-image: linear-gradient(var(--burnt-sienna) 20%, transparent 0);
     background-size: 100% var(--dots-gap);
     background-position: 0 0;
     -webkit-animation: movebg 0.2s linear infinite;
@@ -167,12 +167,12 @@
   
   .projects .dots:before,
   .projects .dots:after {
-    background-image: linear-gradient(var(--fledgrau) 20%, transparent 0);
+    background-image: linear-gradient(var(--licorice) 20%, transparent 0);
   }
   
   .find-me .dots:before,
   .find-me .dots:after {
-    background-image: linear-gradient(var(--pale-spring-bud) 20%, transparent 0);
+    background-image: linear-gradient(var(--lavender-blush) 20%, transparent 0);
   }
   
   @-webkit-keyframes movebg {
@@ -211,12 +211,12 @@
   }
   
   .projects h1 {
-    background-color: var(--middle-red);
+    background-color: var(--burnt-sienna);
     background-position: -120px 15%, 230px 20%, -100px 3vw;
   }
   
   .find-me h1 {
-    background-color: var(--pale-spring-bud);
+    background-color: var(--lavender-blush);
     background-position: -240px 15%, 260px 25%, -150px 1vw;
   }
   
@@ -239,14 +239,14 @@
   nav a {
     display: block;
     padding: 0.75rem 0 0.5rem;
-    color: var(--pale-spring-bud);
+    color: var(--lavender-blush);
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 0.875rem;
   }
   nav .link-projects {
-    color: var(--fledgrau);
+    color: var(--licorice);
   }
   
   main {
