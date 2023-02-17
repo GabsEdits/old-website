@@ -6,6 +6,7 @@
   
   </div>
 
+* *17/02/2023* Updated the cursor (same cursor but bigger)
 * *16/02/2023* Added an Email link in the `find-me` tab & Fix the `projects-tab`
 * *11/02/2023* New theme, icon & integration with IntelliJ Idea
 * *07/02/2023* Working on the projects tab & fix the change log
