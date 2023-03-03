@@ -5,6 +5,7 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
+* *03/03/2023* Replace `google-fonts` with `bunny-fonts` for better speeds
 * *17/02/2023* Updated the cursor (same cursor but bigger)
 * *16/02/2023* Added an Email link in the `find-me` tab, Fix the `projects-tab` & faster website
 * *11/02/2023* New theme, icon & integration with IntelliJ Idea
@@ -18,7 +19,6 @@
 * *23/01/2023* Changed the Header font to Pacifico and changed "bio" tab to "Find Me" or `find-me`
 * *17/01/2023 - ??/??/2023* Started working for every project I have to have it's homepage
 * *09/01/2023* Fixed all the Grammer Issues, changed the README.md design made a new color palette and new cursor
-* *27/12/2022* Fixed `Find Me` tab
 <br>**See full change log:  <a href="https://github.com/GabsEdits/gabsedits.github.io/blob/main/changelog.md" target="_blank" rel="noopener">/changelog.md</a>**</br>
 
 <div align="center">
