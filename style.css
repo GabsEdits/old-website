@@ -1,7 +1,7 @@
 :root {
   --licorice: #191515;
   --lavender-blush: #FFF1F3;
-  --burnt-sienna: #E23F12;
+  --burnt-sienna: #F17755;
   --border-width: .8rem;
   --dots-gap: 20px;
 
@@ -79,6 +79,7 @@
   .link-find-me {
     background: var(--burnt-sienna);
     border-radius: 0 0 10px 0;
+    color: #191515;
   }
   
   .transition {
