@@ -1,7 +1,7 @@
 :root {
   --licorice: #191515;
-  --lavender-blush: #FFF1F3;
-  --burnt-sienna: #F06842;
+  --lavender-blush: #FFF1F3; /* #F06842 */
+  --burnt-sienna: #9B2A0D;
   --border-width: .8rem;
   --dots-gap: 20px;
 
