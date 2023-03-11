@@ -6,6 +6,7 @@
   
   </div>
 
+* *11/03/2023* Update Links & Projects
 * *03/03/2023* Replace `google-fonts` with `bunny-fonts` for better speeds & code clean up
 * *17/02/2023* Updated the cursor (same cursor but bigger)
 * *16/02/2023* Added an Email link in the `find-me` tab, Fix the `projects-tab` & made everything faster
