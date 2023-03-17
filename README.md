@@ -5,6 +5,7 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
+* *17/03/2023* Update Projects Page
 * *11/03/2023* Update Links & Projects
 * *03/03/2023* Replace `google-fonts` with `bunny-fonts` for better speeds & code clean up
 * *17/02/2023* Updated the cursor (same cursor but bigger)
