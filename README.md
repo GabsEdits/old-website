@@ -5,6 +5,7 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
+* *19/03/2023* Removed the delay from the cursor
 * *18/03/2023* Minor Changes
 * *17/03/2023* Update Projects Page
 * *11/03/2023* Update Links & Projects
