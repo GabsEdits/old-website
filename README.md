@@ -36,5 +36,8 @@ For it I have a big plan. First, a more professional website. Based on the curre
 That's all right now, with time this will build up
 
 <div align="center">
+
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
+
   <sup> Thanks for checking out my website 👋</sup>
   </div>
