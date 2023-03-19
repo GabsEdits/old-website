@@ -6,7 +6,7 @@
   
   </div>
   
-* *19/03/2023* Removed the delay from the cursor
+* *19/03/2023* Removed the delay from the cursor, new icons, the fonts were move to the `css` file and updated the projects list
 * *18/03/2023* Minor Changes
 * *17/03/2023* Update Projects Page
 * *11/03/2023* Update Links & Projects

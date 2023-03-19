@@ -5,7 +5,7 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
-* *19/03/2023* Removed the delay from the cursor
+* *19/03/2023* Removed the delay from the cursor, new icons, the fonts were move to the `css` file and updated the projects list
 * *18/03/2023* Minor Changes
 * *17/03/2023* Update Projects Page
 * *11/03/2023* Update Links & Projects
@@ -26,7 +26,7 @@
 <br>**See full change log:  <a href="https://github.com/GabsEdits/gabsedits.github.io/blob/main/changelog.md" target="_blank" rel="noopener">/changelog.md</a>**</br>
 
 ## Future
-### gabs 3.0
+### gabs 3.1
 For it I have a big plan. First, a more professional website. Based on the current one. Why not a new project? Well, the plan I have is to adapt the current code of the website into a new, better one. I don't want to start a new project, I want to continue it till I make it the best. That's why I will have to use this code for the next 5 years or so. But it's not going to stay like this. Yes, maybe the main code will be the same, but it's not going to look the same (kinda). I still don't know how it will look. But it's going to be a big project. Below you will see what I have planned:
 * Domain
 * Better pages
