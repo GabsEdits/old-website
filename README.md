@@ -1,7 +1,7 @@
 <div align="center">
-
-# My Main Website 🦕
-<sup2> This is the main website were you are going to find my projects, about me and how to find me. </sup2>
+  <img src="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f33f.svg" width="64">
+  <h1 align="center"> My Main Website</h1>
+  <p align="center">This is the main website were you are going to find my projects, about me and how to find me.</p>
 </div>
 
 ## Change log (dd/mm/yyyy)
