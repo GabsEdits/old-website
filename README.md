@@ -5,6 +5,8 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
+* *25/03/2023* Blog: Dark Theme added, update homepage
+* *24/03/2023* [Gabs Blog](https://gabsedits.github.io/blog) got released.
 * *21/03/2023* Fix Minor Issues (project list, find me links)
 * *19/03/2023* Removed the delay from the cursor, new icons, the fonts were move to the `css` file and updated the projects list
 * *18/03/2023* Minor Changes
