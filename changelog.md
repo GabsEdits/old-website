@@ -1,11 +1,9 @@
 <div align="center">
-
  <sup>(dd/mm/yyyy)</sup>
-  
-## Change log
-  
+<h1>Change log</h1>
   </div>
 
+* *26/03/2023* Daylight saving time
 * *25/03/2023* Blog: Dark Theme added, update homepage
 * *24/03/2023* [Gabs Blog](https://gabsedits.github.io/blog) got released.
 * *21/03/2023* Fix Minor Issues (project list, find me links)
