@@ -5,6 +5,7 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
+* *31/03/2023* Update ["Bye bye Twitter"](https://gabsedits.github.io/blog/2023/03/24/bye-bye-twitter) blog post
 * *26/03/2023* Daylight saving time
 * *25/03/2023* Blog: Dark Theme added, update homepage
 * *24/03/2023* [Gabs Blog](https://gabsedits.github.io/blog) got released.
