@@ -5,6 +5,7 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
+* *01/03/2023* Rewrote the "Projects" tab, "Find me" tab and small changes on the "About Me" tab
 * *31/03/2023* Update ["Bye bye Twitter"](https://gabsedits.github.io/blog/2023/03/24/bye-bye-twitter) blog post
 * *26/03/2023* Daylight saving time
 * *25/03/2023* Blog: Dark Theme added, update homepage
@@ -34,7 +35,7 @@
 ### gabs 3.1
 For it I have a big plan. First, a more professional website. Based on the current one. Why not a new project? Well, the plan I have is to adapt the current code of the website into a new, better one. I don't want to start a new project, I want to continue it till I make it the best. That's why I will have to use this code for the next 5 years or so. But it's not going to stay like this. Yes, maybe the main code will be the same, but it's not going to look the same (kinda). I still don't know how it will look. But it's going to be a big project. Below you will see what I have planned:
 * Domain
-* Better pages
+* ~~Better pages~~
 * A header
 * CSS Revamp
 * Make the code look better (with the help of AI)
