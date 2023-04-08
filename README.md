@@ -5,6 +5,7 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
+* *07/03/2023* Made "Find Me" tab as a list
 * *01/03/2023* Rewrote the "Projects" tab, "Find me" tab and small changes on the "About Me" tab
 * *31/03/2023* Update ["Bye bye Twitter"](https://gabsedits.github.io/blog/2023/03/24/bye-bye-twitter) blog post
 * *26/03/2023* Daylight saving time
