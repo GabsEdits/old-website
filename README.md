@@ -5,7 +5,7 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
-* *17/04/2023* Aligned the "About Me" text in the center for a better look on mobile and desktop
+* *17/04/2023* Aligned the "About Me" text in the center for a better look on mobile and desktop & and swiched the `Email` text from "gaba" to "Click Here"
 * *15/04/2023* Fix Minor Change Log Issues
 * *07/04/2023* Made "Find Me" tab as a list
 * *01/04/2023* Rewrote the "Projects" tab, "Find me" tab and small changes on the "About Me" tab
