@@ -3,6 +3,7 @@
 <h1>Change log</h1>
   </div>
 
+* *17/04/2023* Aligned the "About Me" text in the center for a better look on mobile and desktop
 * *15/04/2023* Fix Minor Change Log Issues
 * *07/04/2023* Made "Find Me"tab as a list
 * *01/04/2023* Rewrote the "Projects" tab, "Find me" tab and small changes on the "About Me" tab
