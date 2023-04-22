@@ -5,6 +5,7 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
+* *22/04/2023* Added an `404` page
 * *17/04/2023* Aligned the "About Me" text in the center for a better look on mobile and desktop & and swiched the `Email` text from "gaba" to "Click Here"
 * *15/04/2023* Fix Minor Change Log Issues
 * *07/04/2023* Made "Find Me" tab as a list
