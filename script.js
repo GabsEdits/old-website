@@ -34,7 +34,7 @@ new Vue({
           zIndex: '2147483647',
           width: `${ this.cursorSize }px`,
           height: `${ this.cursorSize }px`,
-          transition: '250ms, transform 39ms',
+          transition: '250ms, transform 1ms',
           userSelect: 'none',
           pointerEvents: 'none'
         }
