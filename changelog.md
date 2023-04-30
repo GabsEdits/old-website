@@ -3,6 +3,8 @@
 <h1>Change log</h1>
   </div>
 
+* *28-30/04/2023* Revamp the Projects tab, the tab name is now bold, removed the text decoration for the `Find Me` tab, changed the email from "Click Me" to my real email, added `/`/`@ ` for every Option and changed the `About Me` text to Justify and now the Zilla Slab font has every weight (it's so much)
+* *24/04/2023* Brand new About Me + minnor Projects changes
 * *23/04/2023* Updated Projects List, made the cursor a bit faster and removed main cursor when clicking links
 * *22/04/2023* Added an `404` page
 * *17/04/2023* Aligned the "About Me" text in the center for a better look on mobile and desktop & and swiched the `Email` text from "gaba" to "Click Here"

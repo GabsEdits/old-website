@@ -30,9 +30,9 @@
     <header>
       <nav>
         <ul>
-          <li><a class="link-bio" href="#bio" @click="bg = 'bio'">About Me</a></li>
-          <li><a class="link-projects" href="#projects" @click="bg = 'projects'">Projects</a></li>
-          <li><a class="link-find-me" href="#findme" @click="bg = 'find-me'">Find me</a></li>
+          <li><a class="link-bio" href="#bio" @click="bg = 'bio'" style="font-weight: 500;">About Me</a></li>
+          <li><a class="link-projects" href="#projects" @click="bg = 'projects'" style="font-weight: 500;">Projects</a></li>
+          <li><a class="link-find-me" href="#findme" @click="bg = 'find-me'" style="font-weight: 500;">Find me</a></li>
         </ul>
       </nav>
       <div class="transition transition-bio"></div>
@@ -44,30 +44,54 @@
     <div class="dots dots2"></div>
     <main>
       <transition name="slide-fade" mode="out-in">
-          <p key="bio" v-if="bg==='bio'" style="text-align: center;">Hi there! I’m a human person. Also, a designer and developer. I have some open-source projects that you can check out on my <a href="https://github.com/GabsEdits" target="_blank" rel="noopener">Github</a> and maybe sometime in the future <a href="https://gitlab.com/gxbs" target="_blank" rel="noopener">Gitlab</a> :D</p>
+          <p key="bio" v-if="bg==='bio'" style="text-align: justify;">Hi there! I’m a human person. Also, a designer and developer. I have some open-source projects that you can check out on my <a href="https://github.com/GabsEdits" target="_blank" rel="noopener">Github</a> and maybe sometime in the future <a href="https://gitlab.com/gxbs" target="_blank" rel="noopener">Gitlab</a> :D</p>
           <p key="projects" v-if="bg === 'projects'" style="text-align: center;">
              Here are ALL of my projects and the ones that I contribute to:
               <br><br>
-              <span style="display: block; text-align: left;">&bull; <a href="https://github.com/InstallerLegacy" rel="noopener target="_blank">VirtualHub</a></span>
-              <span style="display: block; text-align: left;">&bull; <a href="https://github.com/GabsEdits/gabsedits.github.io" rel="noopener" target="_blank">gabsedits.github.io</a></span>
-              <span style="display: block; text-align: left;">&bull; <a href="https://github.com/GabsEdits/website-concept" rel="noopener" target="_blank">Website Concept</a></span>
-              <span style="display: block; text-align: left;">&bull; <a href="https://github.com/GabsEdits/deb-gnome" rel="noopener" target="_blank">Deb gnome</a></span>
-              <span style="display: block; text-align: left;">&bull; <a href="https://github.com/GabsEdits/password" rel="noopener" target="_blank">Password Generator</a></span>
-              <span style="display: block; text-align: left;">&bull; <a href="https://github.com/GabsEdits/ubu" rel="noopener" target="_blank">Ubu</a></span>
-              <span style="display: block; text-align: left;">&bull; <a href="https://github.com/GabsEdits/deb" rel="noopener" target="_blank">Deb</a></span>
-              <span style="display: block; text-align: left;">&bull; <a href="https://github.com/vixalien/sticky" rel="noopener" target="_blank">Sticky Notes</a></span>
-              <span style="display: block; text-align: left;">&bull; <a href="https://github.com/Vanilla-OS" rel="noopener" target="_blank">Vanilla OS</a></span>
-              <span style="display: block; text-align: left;">&bull; <a href="https://github.com/GabsEdits/fed" rel="noopener" target="_blank">Fed</a></span>
-              <span style="display: block; text-align: left;">&bull; <a href="https://github.com/vikdevelop/timer" rel="noopener" target="_blank">Timer</a></span>
-              <span style="display: block; text-align: left;">&bull; <a href="https://github.com/mjakeman/extension-manager" rel="noopener" target="_blank">Extension Manager</a></span>
+              <span style="display: block; text-align: left;">
+                <strong style="font-weight: bold;">&bull; VirtualHub:</strong><br><sup>Install old hardware. <a href="https://github.com/InstallerLegacy" rel="noopener" target="_blank">View on GitHub</a></sup>
+              </span>
+              <span style="display: block; text-align: left;">
+                <strong style="font-weight: bold;">&bull; gabsedits.github.io:</strong><br><sup>My personal website. <a href="https://github.com/GabsEdits/gabsedits.github.io" rel="noopener" target="_blank">View on GitHub</a></sup>
+              </span>
+              <span style="display: block; text-align: left;">
+                <strong style="font-weight: bold;">&bull; Website Concept:</strong><br><sup>Old concept of my website. <a href="https://github.com/GabsEdits/website-concept" rel="noopener" target="_blank">View on GitHub</a></sup>
+              </span>
+              <span style="display: block; text-align: left;">
+                <strong style="font-weight: bold;">&bull; Deb GNOME:</strong><br><sup>A custom script for GNOME. <a href="https://github.com/GabsEdits/deb-gnome" rel="noopener" target="_blank">View on GitHub</a></sup>
+              </span>
+              <span style="display: block; text-align: left;">
+                <strong style="font-weight: bold;">&bull; Password Generator:</strong><br><sup>A simple pass generator. <a href="https://github.com/GabsEdits/password" rel="noopener" target="_blank">View on GitHub</a></sup>
+              </span>
+              <span style="display: block; text-align: left;">
+                <strong style="font-weight: bold;">&bull; Ubu:</strong><br><sup>A custom script for Ubuntu. <a href="https://github.com/GabsEdits/ubu" rel="noopener" target="_blank">View on GitHub</a></sup>
+              </span>
+              <span style="display: block; text-align: left;">
+                <strong style="font-weight: bold;">&bull; Deb:</strong><br><sup>A custom script for Debian. <a href="https://github.com/GabsEdits/deb" rel="noopener" target="_blank">View on GitHub</a></sup>
+              </span>
+              <span style="display: block; text-align: left;">
+                <strong style="font-weight: bold;">&bull; Sticky Notes:</strong><br><sup>Sticky notes app for GNOME. <a href="https://github.com/vixalien/sticky" rel="noopener" target="_blank">View on GitHub</a></sup>
+              </span>
+              <span style="display: block; text-align: left;">
+                <strong style="font-weight: bold;">&bull; Vanilla OS:</strong><br><sup>An immutable Linux distro. <a href="https://github.com/Vanilla-OS" rel="noopener" target="_blank">View on GitHub</a></sup>
+              </span>
+              <span style="display: block; text-align: left;">
+                <strong style="font-weight: bold;">&bull; Fed:</strong><br><sup>A Custom script for Fedora. <a href="https://github.com/GabsEdits/fed" rel="noopener" target="_blank">View on GitHub</a></sup>
+              </span>
+              <span style="display: block; text-align: left;">
+                <strong style="font-weight: bold;">&bull; Timer:</strong><br><sup>A Simple Timer for GNOME. <a href="https://github.com/Vanilla-OS" rel="noopener" target="_blank">View on GitHub</a></sup>
+              </span>
+              <span style="display: block; text-align: left;">
+                <strong style="font-weight: bold;">&bull; Extension Manager:</strong><br><sup>Manager for Extensions. <a href="https://github.com/Vanilla-OS" rel="noopener" target="_blank">View on GitHub</a></sup>
+              </span>
           </p>
           <p key="find-me" v-if="bg==='find-me'">
               My time zone is <a href="https://time.is/EEST" target="_blank" rel="noopener">EEST</a>. You can reach me at:
-              <span style="display: block; text-align: left;">&bull; Discord: <a href=" https://discord.com/users/841649648606249021" target="_blank" rel="noopener">GabsEdits</a></span>
-              <span style="display: block; text-align: left;">&bull; Twitter: <a href="https://twitter.com/GabsSimply" target="_blank" rel="noopener">GabsSimply</a></span>
-              <span style="display: block; text-align: left;">&bull; Mastodon: <a href="https://fosstodon.org/@gabs" target="_blank" rel="noopener">gabs</a></span>
-              <span style="display: block; text-align: left;">&bull; Telegram: <a href="https://t.me/gabsedits" target="_blank" rel="noopener">gabsedits</a></span>
-              <span style="display: block; text-align: left;">&bull; Email: <a href="mailto:gaba@duck.com" target="_blank" rel="noopener">Click Here</a></span>
+              <span style="display: block; text-align: left;">&bull; Discord: <a href=" https://discord.com/users/841649648606249021" target="_blank" rel="noopener" style="text-decoration: wavy;">@GabsEdits</a></span>
+              <span style="display: block; text-align: left;">&bull; Twitter: <a href="https://twitter.com/GabsSimply" target="_blank" rel="noopener" style="text-decoration: none;">/GabsSimply</a></span>
+              <span style="display: block; text-align: left;">&bull; Mastodon: <a href="https://fosstodon.org/@gabs" target="_blank" rel="noopener" style="text-decoration: none;">@gabs</a></span>
+              <span style="display: block; text-align: left;">&bull; Telegram: <a href="https://t.me/gabsedits" target="_blank" rel="noopener" style="text-decoration: none;">/gabsedits</a></span>
+              <span style="display: block; text-align: left;">&bull; Email: <a href="mailto:gaba@duck.com" target="_blank" rel="noopener" style="text-decoration: none;">gaba@duck.com</a></span>
               Feel free to message me on any of these platforms - I'd love to hear from you!
           </p>
       </transition>

@@ -1,4 +1,4 @@
-@import url(https://fonts.bunny.net/css?family=abril-fatface:400|zilla-slab:400);
+@import url(https://fonts.bunny.net/css?family=abril-fatface:400|zilla-slab:400,500,600,700,800,800,900);
 
 :root {
   --licorice: #191515;
@@ -66,7 +66,7 @@
   .link-bio {
     background: var(--licorice);
     border-radius: 0 0 0 10px;
-
+    
   }
 
   .bio h1 {
@@ -277,4 +277,3 @@
   a:hover {
     cursor: none;
   }
-  
