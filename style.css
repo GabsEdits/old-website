@@ -208,7 +208,7 @@
     font-size: calc(28vw + 1rem);
     font-weight: 500;
     line-height: 1;
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/tw-o.png"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/tw6-o.png"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/tw5-o.png");
+    background-image: url("/media/back1.png"), url("media/back2.png"), url("media/back3.png");
     background-size: 45vw auto, 45vw auto, 30vw auto;
     background-repeat: repeat-x;
     background-position: 0px 15%, 200px 25%, -50px 2vw;
@@ -277,3 +277,47 @@
   a:hover {
     cursor: none;
   }
+
+.social-media {
+  text-decoration: none;
+}
+
+.social-media:hover {
+text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    position: fixed !important;
+    width: 93.8%;
+  }
+  nav li {
+    flex-basis: 50% !important;
+    text-align: center !important;
+  }
+  .bio,
+  .link-bio {
+    background: var(--licorice);
+    border-radius: 10px 0 0 0;
+    
+  }
+
+  .projects,
+  .link-projects {
+    background: var(--lavender-blush);
+    border-radius: 0 10px 0 0;
+  }
+
+  .find-me,
+  .link-find-me {
+    background: var(--burnt-sienna);
+    border-radius: 0 0 10px 10px;
+    color: #191515;
+  }
+}

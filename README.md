@@ -5,7 +5,8 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
-* *28-30/04/2023* Revamp the Projects tab, the tab name is now bold, removed the text decoration for the `Find Me` tab, changed the email from "Click Me" to my real email, added `/`/`@ ` for every Option and changed the `About Me` text to Justify and now the Zilla Slab font has every weight (it's so much)
+* *01-05/05/2023* Now Social Media Links have they're own class, Encrypted my email, finally made a live clock where I am, I updated a small thing in 404 page and lastly new tab style for mobile
+* *28-30/04/2023* Revamp the Projects tab, the tab name is now bold, removed the text decoration for the `Find Me` tab, changed the email from "Click Me" to my real email, added `/`/`@ ` for every Option and changed the `About Me` text to Justify and now the Zilla Slab font has every weight (Should I make itit's so much)
 * *24/04/2023* Brand new About Me + minnor Projects changes
 * *23/04/2023* Updated Projects List, made the cursor a bit faster and removed main cursor when clicking links
 * *22/04/2023* Added an `404` page

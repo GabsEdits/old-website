@@ -132,3 +132,19 @@ new Vue({
         cursor.remove()
       }
     })()
+    
+    function getChisinauTime() {
+      const now = new Date();
+      const chisinauTime = now.toLocaleTimeString("en-US", { timeZone: "Europe/Chisinau", hour12: false, hour: "numeric", minute: "numeric" });
+      return chisinauTime;
+    }
+    
+    function updateChisinauTime() {
+      const chisinauTime = getChisinauTime();
+      document.getElementById("chisinau-time").textContent = chisinauTime;
+    }
+    
+    // Update the Chisinau time every second
+    setInterval(updateChisinauTime, 1000);
+    
+    
