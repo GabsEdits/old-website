@@ -28,6 +28,7 @@
     box-sizing: border-box;
   }
   
+  /* Main Style Area */
   body {
     font-family: 'Zilla Slab', serif;
     line-height: 1.25;
@@ -62,6 +63,7 @@
     transition: 1s;
   }
   
+  /* Tabs */
   .bio,
   .link-bio {
     background: var(--licorice);
@@ -84,7 +86,7 @@
     border-radius: 0 0 10px 0;
     color: #191515;
   }
-
+/* Transictions *duh* */
   .transition {
     width: 1rem;
     height: 1rem;
@@ -92,7 +94,7 @@
     display: block;
     position: absolute;
     opacity: 0;
-    transition: transform 0.6s ease-in-out;
+    transition: transform 0.5s ease-in;
     width: 100%;
     height: 100vh;
     transform: scale(0.1);
@@ -132,6 +134,7 @@
     transform: scale(1) translateX(-15rem);
   }
   
+  /* Dots */
   .dots:before,
   .dots:after {
     content: "";
@@ -178,7 +181,8 @@
   .find-me .dots:after {
     background-image: linear-gradient(var(--lavender-blush) 20%, transparent 0);
   }
-  
+
+  /* Moving stuff */
   @-webkit-keyframes movebg {
     0% {
       transform: translate3d(0, 0, 0);
@@ -196,6 +200,8 @@
       transform: translate3d(0, var(--dots-gap), 0);
     }
   }
+  
+  /* Style for the Title and Navigations */
   h1 {
     font-family: 'Abril Fatface', cursive;
     text-align: center;
@@ -262,22 +268,26 @@
   }
   
   .slide-fade-enter-active {
-    transition: all 1s ease;
+    transition: all 0.5s ease;
+    opacity: 1;
+    height: auto;
   }
   
   .slide-fade-leave-active {
-    transition: all 0.5s;
+    transition: all 0.2s;
   }
   
   .slide-fade-enter, .slide-fade-leave-to {
     transform: translateY(2rem);
     opacity: 0;
+    height: 100%;
   }
 
   a:hover {
     cursor: none;
   }
 
+ /* Links */
 .social-media {
   text-decoration: none;
 }
@@ -286,6 +296,7 @@
 text-decoration: underline;
 }
 
+/* Mobile */
 @media screen and (max-width: 600px) {
   nav ul {
     display: flex !important;
