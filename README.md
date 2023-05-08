@@ -5,7 +5,7 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
-* *08/05/2023* Improved the website's speed overall and made the JS time way faster
+* *08/05/2023* Improved the website's speed overall, made the JS time way faster, I've rebuild the animations for a nicer look and rewrote the `About Me`
 * *01-05/05/2023* Now Social Media Links have they're own class, Encrypted my email, finally made a live clock where I am, I updated a small thing in 404 page and lastly new tab style for mobile
 * *28-30/04/2023* Revamp the Projects tab, the tab name is now bold, removed the text decoration for the `Find Me` tab, changed the email from "Click Me" to my real email, added `/`/`@ ` for every Option and changed the `About Me` text to Justify and now the Zilla Slab font has every weight (Should I make itit's so much)
 * *24/04/2023* Brand new About Me + minnor Projects changes
@@ -45,9 +45,13 @@
 For it I have a big plan. First, a more professional website. Based on the current one. Why not a new project? Well, the plan I have is to adapt the current code of the website into a new, better one. I don't want to start a new project, I want to continue it till I make it the best. That's why I will have to use this code for the next 5 years or so. But it's not going to stay like this. Yes, maybe the main code will be the same, but it's not going to look the same (kinda). I still don't know how it will look. But it's going to be a big project. Below you will see what I have planned:
 * Domain
 * ~~Better pages~~
+  * ~~About Me~~
+  * ~~Projects~~
+  * ~~Find Me~~
 * A header
 * CSS Revamp
 * Make the code look better (with the help of AI)
+
 That's all right now, with time this will build up
 
 <div align="center">
