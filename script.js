@@ -133,21 +133,24 @@ new Vue({
       }
     })()
     
-document.addEventListener("DOMContentLoaded", function() {
-  function getChisinauTime() {
-    const now = new Date();
-    const chisinauTime = now.toLocaleTimeString("en-US", { timeZone: "Europe/Chisinau", hour12: false, hour: "numeric", minute: "numeric" });
-    return chisinauTime;
-  }
-
-  function updateChisinauTime() {
-    const chisinauTime = getChisinauTime();
-    document.getElementById("chisinau-time").textContent = chisinauTime;
-  }
-
-  // Update the Chisinau time every second
-  setInterval(updateChisinauTime, 1000);
-});
-
+    document.addEventListener("DOMContentLoaded", function() {
+      function getChisinauTime() {
+        const now = new Date();
+        const chisinauTime = now.toLocaleTimeString("en-US", { timeZone: "Europe/Chisinau", hour12: false, hour: "numeric", minute: "numeric" });
+        return chisinauTime;
+      }
+    
+      function updateChisinauTime() {
+        const chisinauTime = getChisinauTime();
+        const chisinauTimeElem = document.getElementById("chisinau-time");
+        if (chisinauTimeElem) {
+          chisinauTimeElem.textContent = chisinauTime;
+        }
+      }
+    
+      // Update the Chisinau time every second
+      setInterval(updateChisinauTime, 1000);
+    });
+    
     
     

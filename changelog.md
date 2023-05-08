@@ -3,7 +3,7 @@
 <h1>Change log</h1>
   </div>
 
-* *08/05/2023* Improved the website's speed overall and a few JS changes
+* *08/05/2023* Improved the website's speed overall and made the JS time way faster
 * *01-05/05/2023* Now Social Media Links have they're own class, Encrypted my email, finally made a live clock where I am, I updated a small thing in 404 page, new tab style for mobile and lastly I made the background images now local for faster speed
 * *28-30/04/2023* Revamp the Projects tab, the tab name is now bold, removed the text decoration for the `Find Me` tab, changed the email from "Click Me" to my real email, added `/`/`@ ` for every Option and changed the `About Me` text to Justify and now the Zilla Slab font has every weight (it's so much)
 * *24/04/2023* Brand new About Me + minnor Projects changes
