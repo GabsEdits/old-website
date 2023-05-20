@@ -273,3 +273,17 @@
     transform: translateY(2rem);
     opacity: 0;
   }
+
+  .curzr {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    left: -9.4px;
+    z-index: 2147483647;
+    width: 18.8px;
+    height: 18.8px;
+    transition: 200ms, transform 1ms;
+    user-select: none;
+    pointer-events: none;
+  }
+  

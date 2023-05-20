@@ -5,7 +5,7 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
-* *20/05/2023* Improved the cursor's speed, Added a bit to the `head`, CSS clean up, optimized the website for mobile by: Made the title bigger, text smaller and a bit CSS ticking
+* *20/05/2023* Improved the cursor's speed, Added a bit to the `head`, CSS clean up, optimized the website for mobile by: Made the title bigger, text smaller, a bit CSS ticking and fixed 404 page
 * *19/05/2023* Domain
 * *08/05/2023* Improved the website's speed overall, made the JS time way faster, I've rebuild the animations for a nicer look and rewrote the `About Me`
 * *01*05/05/2023* Now Social Media Links have they're own class, Encrypted my email, finally made a live clock where I am, I updated a small thing in 404 page and lastly new tab style for mobile
