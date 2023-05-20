@@ -340,7 +340,7 @@ a:hover {
 }
 
 .about-text {
-  text-align: center;
+  text-align: center !important;
 }
 
 @keyframes gradient-animation {
