@@ -294,6 +294,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.mobile-only {
+  display: none;
+}
+
 /* Mobile */
 @media screen and (max-width: 600px) {
   nav ul {
@@ -338,6 +342,10 @@ a:hover {
   p {
     font-size: 25px;
     padding: 0 10px;
+  }
+
+  .mobile-only {
+    display: block;
   }
 }
 

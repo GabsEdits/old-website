@@ -3,7 +3,7 @@
 <h1>Change log</h1>
   </div>
 
-* *26/05/2023* Improved Title background animations for most browsers, changed how the `About Me` text looks and small changes on mobile
+* *26/05/2023* Improved Title background animations for most browsers, changed how the `About Me` text looks, small changes on mobile and a better Project List
 * *20/05/2023* Improved the cursor's speed, Added a bit to the `head`, CSS clean up, optimized the website for mobile by: Made the title bigger, text smaller, a bit CSS ticking and fixed 404 page
 * *08/05/2023* Improved the website's speed overall, made the JS time way faster, I've rebuild the animations for a nicer look and rewrote the `About Me`
 * *01-05/05/2023* Now Social Media Links have they're own class, Encrypted my email, finally made a live clock where I am, I updated a small thing in 404 page, new tab style for mobile and lastly I made the background images now local for faster speed
