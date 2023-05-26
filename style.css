@@ -200,13 +200,15 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000), color-stop(0.5, #000), color-stop(1, transparent));
+  background-clip: text;
+  mask-image: linear-gradient(to bottom, #000 0%, #000 50%, transparent 100%);
   transition: background-position 1s, background-color 1s;
   text-align: center;
   font-size: calc(28vw + 1rem);
   font-weight: 500;
   line-height: 1;
   background-image: url("/media/back1.png"), url("media/back2.png"), url("media/back3.png");
-  background-size: 45vw auto, 45vw auto, 30vw auto;
+  background-size: 35vw auto, 25vw auto, 20vw auto;
   background-repeat: repeat-x;
   background-position: 0px 15%, 200px 25%, -50px 2vw;
 }
@@ -330,7 +332,7 @@ a:hover {
   h1 {
     margin-bottom: 40px;
     font-size: 150px;
-    font-weight: 600;
+    font-weight: 500;
   }
     
   p {
@@ -340,7 +342,7 @@ a:hover {
 }
 
 .about-text {
-  text-align: center !important;
+  text-align: left !important;
 }
 
 @keyframes gradient-animation {

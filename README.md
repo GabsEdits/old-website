@@ -5,6 +5,7 @@
 </div>
 
 ## Change log (dd/mm/yyyy)
+* *26/05/2023* Improved Title background animations for most browsers, changed how the `About Me` text looks and small changes on mobile
 * *20/05/2023* Improved the cursor's speed, Added a bit to the `head`, CSS clean up, optimized the website for mobile by: Made the title bigger, text smaller, a bit CSS ticking and fixed 404 page
 * *19/05/2023* Domain
 * *08/05/2023* Improved the website's speed overall, made the JS time way faster, I've rebuild the animations for a nicer look and rewrote the `About Me`
@@ -14,7 +15,6 @@
 * *23/04/2023* Updated Projects List, made the cursor a bit faster and removed main cursor when clicking links
 * *22/04/2023* Added an `404` page
 * *17/04/2023* Aligned the "About Me" text in the center for a better look on mobile and desktop & and swiched the `Email` text from "gaba" to "Click Here"
-* *15/04/2023* Fix Minor Change Log Issues
 * *07/04/2023* Made "Find Me" tab as a list
 * *01/04/2023* Rewrote the "Projects" tab, "Find me" tab and small changes on the "About Me" tab
 * *31/03/2023* Update ["Bye bye Twitter"](https://gabsedits.github.io/blog/2023/03/24/bye-bye-twitter) blog post
