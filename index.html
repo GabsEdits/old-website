@@ -32,8 +32,11 @@
     <header>
       <nav>
         <ul>
-          <li><a class="link-bio" href="#bio" @click="bg = 'bio'" style="font-weight: 500;">About Me</a></li>
-          <li><a class="link-projects" href="#projects" @click="bg = 'projects'" style="font-weight: 500;">Projects</a></li>
+          <li>
+            <i class="fa-solid fa-house-blank"></i>
+            <a class="link-bio" href="#bio" @click="bg = 'bio'" style="font-weight: 500;">About Me</a>
+          </li>
+          <li><a class="link-projects" href="#projects" @click="bg = 'projects'" style="font-weight: 500;">Projects <!--Work--></a></li>
           <li><a class="link-find-me" href="#findme" @click="bg = 'find-me'" style="font-weight: 500;">Find me</a></li>
         </ul>
       </nav>
@@ -48,13 +51,13 @@
       <transition name="slide-fade" mode="out-in">
           <p key="bio" v-if="bg==='bio'" class="about-text">Salut! I'm a human person, but also a designer and developer with a passion for creating beautiful and intuitive experiences. Check out my open-source projects on <a href="https://github.com/GabsEdits" rel="noopener" target="_blank">Github</a> and who knows, maybe in the future, I'll add some to <a href="https://gitlab.com/gxbs" rel="noopener" target="_blank">Gitlab</a> too. <br><br>In my free time, enjoy exploring new technologies and learning new skills to make a positive impact on the world through my work :D</p>
           <p key="projects" v-if="bg === 'projects'" style="text-align: center;">
-             Here are ALL of my projects and the ones that I contribute to:
-              <br><br>
+            This page showcases a collection of my professional work, projects and contributions:
+              <br><br> 
               <span style="display: block; text-align: left;">
                 <strong style="font-weight: bold;">&bull; VirtualHub:</strong><br><sup>Install old hardware. <br class="mobile-only"> <a href="https://github.com/InstallerLegacy" rel="noopener" target="_blank">View on GitHub</a></sup>
               </span>
               <span style="display: block; text-align: left;">
-                <strong style="font-weight: bold;">&bull; gabsedits.github.io:</strong><br><sup>My personal website. <br class="mobile-only"> <a href="https://github.com/GabsEdits/gabsedits.github.io" rel="noopener" target="_blank">View on GitHub</a></sup>
+                <strong style="font-weight: bold;">&bull; gabs.eu.org:</strong><br><sup>My personal website. <br class="mobile-only"> <a href="https://github.com/GabsEdits/gabsedits.github.io" rel="noopener" target="_blank">View on GitHub</a></sup>
               </span>
               <span style="display: block; text-align: left;">
                 <strong style="font-weight: bold;">&bull; Website Concept:</strong><br><sup>Old concept of my website. <br class="mobile-only"> <a href="https://github.com/GabsEdits/website-concept" rel="noopener" target="_blank">View on GitHub</a></sup>
@@ -93,7 +96,7 @@
               <span style="display: block; text-align: left;">&bull; Twitter: <a href="https://twitter.com/GabsSimply" target="_blank" rel="noopener" class="social-media">/GabsSimply</a></span>
               <span style="display: block; text-align: left;">&bull; Mastodon: <a href="https://fosstodon.org/@gabs" target="_blank" rel="noopener" class="social-media">@gabs</a></span>
               <span style="display: block; text-align: left;">&bull; Telegram: <a href="https://t.me/gabsedits" target="_blank" rel="noopener" class="social-media">/gabsedits</a></span>
-              <span style="display: block; text-align: left;">&bull; Email: <a href="#" onclick="location.href='mailto:'+String.fromCharCode(103,97,98,97,64,100,117,99,107,46,99,111,109)" class="social-media"><script type="text/javascript">document.write(String.fromCharCode(103,97,98,97,64,100,117,99,107,46,99,111,109))</script></a></span>
+              <span style="display: block; text-align: left;">&bull; Email: <a href="#" onclick="location.href='mailto:'+String.fromCharCode(109,101,64,103,97,98,115,46,101,117,46,111,114,103)" class="social-media"><script type="text/javascript">document.write(String.fromCharCode(109,101,64,103,97,98,115,46,101,117,46,111,114,103))</script></a></span>
               Feel free to message me on any of these platforms - I'd love to hear from you!
           </p>
       </transition>
