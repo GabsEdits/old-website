@@ -1,10 +1,11 @@
 <div align="center">
   <img src="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f33f.svg" width="64">
   <h1> My Main Website</h1>
-  <p>This is the main website were you are going to find my projects, about me and how to find me.</p>
+  <p>This is the main website were you are going to find my projects, about me and how to find me.<p>
 </div>
 
 ## Change log (dd/mmyyyy)
+* *20/06/2023* Added `robot.txt` for Search Indexing
 * *01-04/06/2023* Worked on some future stuff for the website, updated the project list, updated my email and made the cursor a bit faster
 * *26/05/2023* Improved Title background animations for most browsers, changed how the `About Me` text looks, small changes on mobile, a better Project List
 * *20/05/2023* Improved the cursor's speed, Added a bit to the `head`, CSS clean up, optimized the website for mobile by: Made the title bigger, text smaller, a bit CSS ticking and fixed 404 page
