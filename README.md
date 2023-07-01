@@ -65,6 +65,6 @@ That's all right now, with time this will build up
 
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraineFlat.svg)](https://stand-with-ukraine.pp.ua)
 
-<sup>Thanks for stopping by!👋</sup>
+<sup>Thanks for stopping by! 👋</sup>
 
   </div>
