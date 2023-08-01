@@ -5,6 +5,8 @@
 </div>
 
 ## Change log (dd/mmyyyy)
+* *01/08/2023* Fixed some text
+* *31/07/2023* Added an Sitemap
 * *20/06/2023* Added `robot.txt` for Search Indexing
 * *01-04/06/2023* Worked on some future stuff for the website, updated the project list, updated my email and made the cursor a bit faster
 * *26/05/2023* Improved Title background animations for most browsers, changed how the `About Me` text looks, small changes on mobile, a better Project List
