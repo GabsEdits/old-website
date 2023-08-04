@@ -5,6 +5,7 @@
 </div>
 
 ## Change log (dd/mmyyyy)
+* *20/07/2023 - 04/08/2023* Migrated to Vue 3, Updated projects list & And about me text, Added Project Highlights, mobile tweaks and updated the general information
 * *01/08/2023* Fixed some text
 * *31/07/2023* Added an Sitemap
 * *20/06/2023* Added `robot.txt` for Search Indexing

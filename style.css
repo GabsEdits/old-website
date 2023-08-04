@@ -38,6 +38,7 @@ a {
   color: inherit;
 }
 
+
 .bg {
   background: inherit;
   min-height: 100vh;
@@ -98,7 +99,6 @@ a {
   height: 100vh;
   transform: scale(0.1);
   transform-origin: 0 0;
-  will-change: transform, opacity;
 }
 
 .transition-bio {
@@ -120,7 +120,6 @@ a {
 .projects .transition-projects,
 .find-me .transition-find-me {
   opacity: 1;
-  will-change: transform;
 }
 
 .bio .transition-bio {
@@ -136,19 +135,18 @@ a {
 }
 
 /* Dots */
-.dots:before,
+ .dots:before,
 .dots:after {
   content: "";
   position: fixed;
   top: 0;
   bottom: 0;
   opacity: 0.5;
-  z-index: 11;
+  z-index: 9;
   background-image: linear-gradient(var(--burnt-sienna) 20%, transparent 0);
   background-size: 100% var(--dots-gap);
   background-position: 0 0;
   animation: movebg 0.2s linear infinite;
-  will-change: transform;
   width: 2.5px;
 }
 
@@ -192,6 +190,7 @@ a {
   }
 }
 
+
 /* Style for the Title and Navigations */
 h1 {
   font-family: 'Abril Fatface', cursive;
@@ -204,10 +203,10 @@ h1 {
   mask-image: linear-gradient(to bottom, #000 0%, #000 50%, transparent 100%);
   transition: background-position 1s, background-color 1s;
   text-align: center;
-  font-size: calc(28vw + 1rem);
+  font-size: calc(19vw + 1rem);
   font-weight: 500;
   line-height: 1;
-  background-image: url("/media/back1.png"), url("media/back2.png"), url("media/back3.png");
+  background-image: url("/media/back1.webp"), url("media/back2.webp"), url("media/back3.webp");
   background-size: 35vw auto, 25vw auto, 20vw auto;
   background-repeat: repeat-x;
   background-position: 0px 15%, 200px 25%, -50px 2vw;
@@ -265,7 +264,7 @@ main {
 }
 
 .slide-fade-enter-active {
-  transition: all 0.5s ease;
+  transition: all 1s ease;
   opacity: 1;
   height: auto;
 }
@@ -308,7 +307,8 @@ a:hover {
     display: flex !important;
     justify-content: center !important;
     position: fixed !important;
-    width: 93.8%;
+    margin: 0 auto;
+    width: 96.2%;
   }
   nav li {
     flex-basis: 50% !important;
@@ -347,6 +347,14 @@ a:hover {
   .mobile-only {
     display: block;
   }
+
+  :root {
+    --border-width: 0.5rem;
+  }
+
+  .highlight-project-k {
+    height: 148px !important;
+  }
 }
 
 .about-text {
@@ -379,12 +387,13 @@ a:hover {
   position: fixed;
   top: 0px;
   left: -9.4px;
-  z-index: 2147483647;
+  z-index: 147483647;
   width: 18.8px;
   height: 18.8px;
-  transition: 100ms, transform 1ms;
+  transition: top 1s, left 100s, transform 100ms;
   user-select: none;
   pointer-events: none;
+  transform-origin: center;
 }
 
 .shining-effect {
@@ -415,4 +424,123 @@ a:hover {
   100% {
     left: 100%;
   }
+}
+
+
+.highlight-project {
+  display: block;
+  text-align: left; 
+  background-color: var(--burnt-sienna); 
+  padding: 10px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 10px;
+}
+
+.source-code {
+  font-size: 14px;
+}
+
+.git-link:hover {
+  color: var(--burnt-sienna);
+}
+
+.project-link {
+  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #191515;
+  transition: text-decoration-color 200ms;
+  color: #191515;
+}
+
+.project-link:hover {
+  text-decoration-color: #F17755;
+}
+
+.project-link:hover i {
+  color: #F17755;
+}
+
+.project-link i {
+  color: #191515;
+  font-size: 25px;
+  transition: color 200ms;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+}
+
+.highlight-project-v {
+  display: block;
+  text-align: left; 
+  border: 3px var(--licorice) solid;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  padding: 10px; 
+  border-radius: 10px; 
+  margin-bottom: 10px;
+}
+
+ .under-construction {
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.highlight-project #under-construction {
+  width: 100px;
+  height: 20px;
+  background-image: repeating-linear-gradient(-45deg, #000, #000 30px, #ffdd00 30px, #ffdd00 50px);
+
+}
+
+.highlight-project-k {
+  background-image: linear-gradient(#ffdf8d00,#bebebe00 ),
+                    repeating-linear-gradient(45deg, #000, #000 30px, #ffdd00 30px, #ffdd00 50px);
+  background-size: 100% calc(100% - 27px), 100% 27px;
+  border:  3px solid var(--licorice);
+  background-position: top, bottom;
+  background-repeat: no-repeat;
+  padding: 10px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 10px;
+  height: 125px;
+  display: block;
+  text-align: left;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  animation: fade-in 1s ease-out;
+}
+
+.text-cursor {
+  position: absolute;
+  pointer-events: none;
+  z-index: 9999;
+  width: 2px;
+  background-color: black;
+  transition: width 0.2s ease-out;
+  mix-blend-mode: difference;
+}
+
+#here-badge {
+  font-size: 15px;
+  font-weight: 500;
+  background: linear-gradient(#8d4531, #F17755 );
+  color: var(--lavender-blush);
+  padding: 2px 4px 2px 4px;
+  border-radius: 12px;
 }

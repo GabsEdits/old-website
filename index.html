@@ -2,19 +2,20 @@
 <html lang="en" >
   <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Gabs">
+    <meta name="description" content="Gabs' Personal Website build with Vue. Explore my world: About me, My, and more. Connect and collaborate.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="Gabs, Personal Website, Projects, Github, Gitlab, Web">
-    <meta name="author" content="GabsEdits">
+    <meta name="author" content="Gabriel Cozma">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://gabs.eu.org">
     <link rel="icon" href="icons/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="me" href="https://fosstodon.org/@gabs">
     <link rel="manifest" href="icons/site.webmanifest">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <title>gabs</title>
   </head>  
 <body>
@@ -33,10 +34,9 @@
       <nav>
         <ul>
           <li>
-            <i class="fa-solid fa-house-blank"></i>
             <a class="link-bio" href="#bio" @click="bg = 'bio'" style="font-weight: 500;">About Me</a>
           </li>
-          <li><a class="link-projects" href="#projects" @click="bg = 'projects'" style="font-weight: 500;">Projects <!--Work--></a></li>
+          <li><a class="link-projects" href="#projects" @click="bg = 'projects'" style="font-weight: 500;">Projects</a></li>
           <li><a class="link-find-me" href="#findme" @click="bg = 'find-me'" style="font-weight: 500;">Find me</a></li>
         </ul>
       </nav>
@@ -47,65 +47,90 @@
     </header>
     <div class="dots dots1"></div>
     <div class="dots dots2"></div>
-    <main>
-      <transition name="slide-fade" mode="out-in">
-          <p key="bio" v-if="bg==='bio'" class="about-text">Salut! I'm a human person, but also a designer and developer with a passion for creating beautiful and intuitive experiences. Check out my open-source projects on <a href="https://github.com/GabsEdits" rel="noopener" target="_blank">Github</a> and who knows, maybe in the future, I'll add some to <a href="https://gitlab.com/gxbs" rel="noopener" target="_blank">Gitlab</a> too. <br><br>In my free time, enjoy exploring new technologies and learning new skills to make a positive impact on the world through my work :D</p>
-          <p key="projects" v-if="bg === 'projects'" style="text-align: center;">
+      <div>
+        <main>
+          <transition-group name="slide-fade" mode="out-in">
+            <p key="bio" v-if="bg==='bio'" class="about-text">Salut! I'm a human person, but also a designer and developer with a passion for creating beautiful and intuitive experiences. My name is Gabriel, also known as Gabs, and I am located in Moldova. I specialize in Web Development and am currently trying out other things that I might also enjoy. Since I contribute to a lot of other things, why not check out my open-source projects and profile on <a href="https://github.com/GabsEdits" rel="noopener" target="_blank">GitHub</a> and who knows, maybe in the future, I'll add some to <a href="https://gitlab.com/gxbs" rel="noopener" target="_blank">GitLab</a> too. GitHub is the main area where you'll find me, as almost, if not everything I do, is based there. With time, I started working on more and more things.
+            <br><br>In May 2023, I started working on my first-ever project that is not for myself. I spent about 3 months developing a website for the company Boekestijn in Moldova, and that marked the beginning of my new product <a href="https://gabs.eu.org/aeolus">Aelous</a>. Currently, it's built with basic HTML, but the next version will most likely be built with Vue 3.0. The website was a big success and a milestone for my career. Following that, I began my more professional work and started working for other companies that need websites. <b>If you are looking for a website <a href="#findme" @click="bg = 'find-me'" rel="noopener" target="_blank">contact me.</a></b> You can also check out more or almost all of my projects on my <a @click="bg = 'projects'" href="#projects">Projects</a> page.
+            <br><br>In my free time, I enjoy exploring new technologies and learning new skills to make a positive impact on the world through my work :D</p>
+            <p key="projects" v-if="bg === 'projects'" style="text-align: center;">
             This page showcases a collection of my professional work, projects and contributions:
               <br><br> 
-              <span style="display: block; text-align: left;">
-                <strong style="font-weight: bold;">&bull; VirtualHub:</strong><br><sup>Install old operating systems. <br class="mobile-only"> <a href="https://github.com/InstallerLegacy" rel="noopener" target="_blank">View on GitHub</a></sup>
+                <span class="shining-effect highlight-project">
+                <strong>&bull; Boekestijn Moldova Website:</strong>
+                <sup>
+                  <br>Company Website. <br class="mobile-only">
+                  <a href="https://boekestijn.gabs.eu.org" rel="noopener" target="_blank">Check it out </a> <span class="source-code"><a href="https://github.com/GabsEdits/boekestijn"> Source Code</a></span>
+                </sup>
+              </span>
+              <span class="highlight-project-k">
+                <strong>&bull; Keimeno:</strong>
+                <sup>
+                  <br>Just Text. Just Notes. Save. <br class="mobile-only">
+                  <a href="https://vanillaos.org" rel="noopener" target="_blank">Check it out</a>
+                </sup>
+              </span>
+                  <span class="highlight-project-v">
+                <strong>&bull; Vanilla OS:</strong>
+                <sup>
+                  <br>An immutable Linux distro. <br class="mobile-only">
+                  <a href="https://vanillaos.org" rel="noopener" target="_blank">Check it out</a>
+                </sup>
               </span>
               <span style="display: block; text-align: left;">
-                <strong style="font-weight: bold;">&bull; gabs.eu.org:</strong><br><sup>My personal website. <br class="mobile-only"> <a href="https://github.com/GabsEdits/gabsedits.github.io" rel="noopener" target="_blank">View on GitHub</a></sup>
+                <strong style="font-weight: bold;">&bull; VirtualHub:</strong><br><sup>Install old operating systems. <br class="mobile-only"><a href="https://github.com/InstallerLegacy" rel="noopener" target="_blank" class="project-link">View on <i class="fab fa-github git-link"></i></a></sup>
               </span>
               <span style="display: block; text-align: left;">
-                <strong style="font-weight: bold;">&bull; Website Concept:</strong><br><sup>Old concept of my website. <br class="mobile-only"> <a href="https://github.com/GabsEdits/website-concept" rel="noopener" target="_blank">View on GitHub</a></sup>
+                <strong style="font-weight: bold;">&bull; gabs.eu.org: <span id="here-badge">Here</span></strong><br><sup>My personal website. <br class="mobile-only"> <a href="https://github.com/GabsEdits/gabsedits.github.io" rel="noopener" target="_blank" class="project-link">View on <i class="fab fa-github git-link"></i></a></sup>
               </span>
               <span style="display: block; text-align: left;">
-                <strong style="font-weight: bold;">&bull; Deb GNOME:</strong><br><sup>A script for Debian GNOME. <br class="mobile-only"> <a href="https://github.com/GabsEdits/deb-gnome" rel="noopener" target="_blank">View on GitHub</a></sup>
+                <strong style="font-weight: bold;">&bull; Website Concept:</strong><br><sup>Old concept of my website. <br class="mobile-only"> <a href="https://github.com/GabsEdits/website-concept" rel="noopener" target="_blank" class="project-link">View on <i class="fab fa-github git-link"></i></a></sup>
               </span>
               <span style="display: block; text-align: left;">
-                <strong style="font-weight: bold;">&bull; Password Generator:</strong><br><sup>A password generator. <br class="mobile-only"> <a href="https://github.com/GabsEdits/password" rel="noopener" target="_blank">View on GitHub</a></sup>
+                <strong style="font-weight: bold;">&bull; Deb GNOME:</strong><br><sup>A script for Debian GNOME. <br class="mobile-only"> <a href="https://github.com/GabsEdits/deb-gnome" rel="noopener" target="_blank" class="project-link">View on <i class="fab fa-github git-link"></i></a></sup>
               </span>
               <span style="display: block; text-align: left;">
-                <strong style="font-weight: bold;">&bull; Ubu:</strong><br><sup>A custom script for Ubuntu. <br class="mobile-only"> <a href="https://github.com/GabsEdits/ubu" rel="noopener" target="_blank">View on GitHub</a></sup>
+                <strong style="font-weight: bold;">&bull; Password Generator:</strong><br><sup>A password generator. <br class="mobile-only"> <a href="https://github.com/GabsEdits/password" rel="noopener" target="_blank" class="project-link">View on <i class="fab fa-github git-link"></i></a></sup>
               </span>
               <span style="display: block; text-align: left;">
-                <strong style="font-weight: bold;">&bull; Deb:</strong><br><sup>A custom script for Debian. <br class="mobile-only"> <a href="https://github.com/GabsEdits/deb" rel="noopener" target="_blank">View on GitHub</a></sup>
+                <strong style="font-weight: bold;">&bull; Ubu:</strong><br><sup>A custom script for Ubuntu. <br class="mobile-only"> <a href="https://github.com/GabsEdits/ubu" rel="noopener" target="_blank" class="project-link">View on <i class="fab fa-github git-link"></i></a></sup>
               </span>
               <span style="display: block; text-align: left;">
-                <strong style="font-weight: bold;">&bull; Sticky Notes:</strong><br><sup>Sticky notes app for GNOME. <br class="mobile-only"> <a href="https://github.com/vixalien/sticky" rel="noopener" target="_blank">View on GitHub</a></sup>
+                <strong style="font-weight: bold;">&bull; Deb:</strong><br><sup>A custom script for Debian. <br class="mobile-only"> <a href="https://github.com/GabsEdits/deb" rel="noopener" target="_blank" class="project-link">View on <i class="fab fa-github git-link"></i></a></sup>
               </span>
               <span style="display: block; text-align: left;">
-                <strong style="font-weight: bold;">&bull; Vanilla OS:</strong><br><sup>An immutable Linux distro. <br class="mobile-only"> <a href="https://github.com/Vanilla-OS" rel="noopener" target="_blank">View on GitHub</a></sup>
+                <strong style="font-weight: bold;">&bull; Sticky Notes:</strong><br><sup>Sticky notes app for GNOME. <br class="mobile-only"> <a href="https://github.com/vixalien/sticky" rel="noopener" target="_blank" class="project-link">View on <i class="fab fa-github git-link"></i></a></sup>
               </span>
               <span style="display: block; text-align: left;">
-                <strong style="font-weight: bold;">&bull; Fed:</strong><br><sup>A Custom script for Fedora. <br class="mobile-only"> <a href="https://github.com/GabsEdits/fed" rel="noopener" target="_blank">View on GitHub</a></sup>
+                <strong style="font-weight: bold;">&bull; Vanilla OS:</strong><br><sup>An immutable Linux distro. <br class="mobile-only"> <a href="https://github.com/Vanilla-OS" rel="noopener" target="_blank" class="project-link">View on <i class="fab fa-github git-link"></i></a></sup>
               </span>
               <span style="display: block; text-align: left;">
-                <strong style="font-weight: bold;">&bull; Timer:</strong><br><sup>A Simple Timer for GNOME. <br class="mobile-only"> <a href="https://github.com/Vanilla-OS" rel="noopener" target="_blank">View on GitHub</a></sup>
+                <strong style="font-weight: bold;">&bull; Fed:</strong><br><sup>A Custom script for Fedora. <br class="mobile-only"> <a href="https://github.com/GabsEdits/fed" rel="noopener" target="_blank" class="project-link">View on <i class="fab fa-github git-link"></i></a></sup>
               </span>
               <span style="display: block; text-align: left;">
-                <strong style="font-weight: bold;">&bull; Extension Manager:</strong><br><sup>Manage GNOME Extensions. <br class="mobile-only"> <a href="https://github.com/Vanilla-OS" rel="noopener" target="_blank">View on GitHub</a></sup>
+                <strong style="font-weight: bold;">&bull; Timer:</strong><br><sup>A Simple Timer for GNOME. <br class="mobile-only"> <a href="https://github.com/Vanilla-OS" rel="noopener" target="_blank" class="project-link">View on <i class="fab fa-github git-link"></i></a></sup>
+              </span>
+              <span style="display: block; text-align: left;">
+                <strong style="font-weight: bold;">&bull; Extension Manager:</strong><br><sup>Manage GNOME Extensions. <br class="mobile-only"> <a href="https://github.com/Vanilla-OS" rel="noopener" target="_blank" class="project-link">View on <i class="fab fa-github git-link"></i></a></sup>
               </span>
           </p>
           <p key="find-me" v-if="bg==='find-me'">
               Here, where I live it's currently <span id="chisinau-time"></span>. You can reach me at:
-              <span style="display: block; text-align: left;">&bull; Discord: <a href=" https://discord.com/users/841649648606249021" target="_blank" rel="noopener" class="social-media">@gabsme</a></span>
-              <span style="display: block; text-align: left;">&bull; Twitter: <a href="https://twitter.com/GabsSimply" target="_blank" rel="noopener" class="social-media">/GabsSimply</a></span>
-              <span style="display: block; text-align: left;">&bull; Mastodon: <a href="https://fosstodon.org/@gabs" target="_blank" rel="noopener" class="social-media">@gabs</a></span>
+              <span style="display: block; text-align: left;">&bull; Discord: <a href=" https://discord.com/users/841649648606249021" target="_blank" rel="noopener" class="social-media">gabsme</a></span>
+              <span style="display: block; text-align: left;">&bull; <i class="fa-brands fa-x-twitter fa-sm"></i>: <a href="https://x.com/GabsSimply" target="_blank" rel="noopener" class="social-media">/GabsSimply</a></span>
               <span style="display: block; text-align: left;">&bull; Telegram: <a href="https://t.me/gabsedits" target="_blank" rel="noopener" class="social-media">/gabsedits</a></span>
-              <span style="display: block; text-align: left;">&bull; Email: <a href="#" onclick="location.href='mailto:'+String.fromCharCode(109,101,64,103,97,98,115,46,101,117,46,111,114,103)" class="social-media"><script type="text/javascript">document.write(String.fromCharCode(109,101,64,103,97,98,115,46,101,117,46,111,114,103))</script></a></span>
+              <span style="display: block; text-align: left;">&bull; GNOME GitLab: <a href="https://gitlab.gnome.org/gabs" target="_blank" rel="noopener" class="social-media">@gabs</a></span>
+              <span style="display: block; text-align: left;">&bull; Email: <a href="mailto:me@gabs.eu.org" class="social-media">me@gabs.eu.org</a></span> 
+              <span style="display: block; text-align: left;">&bull; Mastodon: <a href="https://fosstodon.org/@gabs" target="_blank" rel="noopener" class="social-media" style="font-size: 23px;">@gabs@fosstodon.org</a></span>
               Feel free to message me on any of these platforms - I'd love to hear from you!
-          </p>
-      </transition>
-    </main>
+            </p>
+          </transition-group>
+        </main>
+      </div>
   </div>
 </div>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script>
-  <script  src="./script.js"></script>
-
+<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+<script  src="./script.js"></script>
 </body>
 </html>
