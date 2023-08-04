@@ -355,6 +355,10 @@ a:hover {
   .highlight-project-k {
     height: 148px !important;
   }
+
+  .mastodon {
+    font-size: 23px;
+  }
 }
 
 .about-text {
